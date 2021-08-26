@@ -1,0 +1,16 @@
+PODS:
+  - TPFoundation-Swift (1.0.0)
+
+DEPENDENCIES:
+  - TPFoundation-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  TPFoundation-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPFoundation-Swift: b1be14c16eff9220f9066b410fdbdec5c1a4a6a1
+
+PODFILE CHECKSUM: 12f2ce2da2592e58a2a19be88c4a265acf7b7304
+
+COCOAPODS: 1.10.1

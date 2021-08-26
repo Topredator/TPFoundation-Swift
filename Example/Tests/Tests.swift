@@ -1,5 +1,4 @@
 import XCTest
-import TPFoundation-Swift
 
 class Tests: XCTestCase {
     
