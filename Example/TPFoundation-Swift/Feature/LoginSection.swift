@@ -8,3 +8,13 @@
 
 import Foundation
 import TPFoundation_Swift
+
+class LoginSection: TableSection {
+    override init() {
+        
+    }
+    init(_ with: String) {
+        
+    }
+
+}
