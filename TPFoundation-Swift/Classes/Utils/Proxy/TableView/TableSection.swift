@@ -17,9 +17,7 @@ public protocol TableSectionWrapper {
 open class TableSection: Collection, TableSectionWrapper {
     public typealias ListType = [TableRowWrapper]
     public var rows: ListType = []
-    public init(_ rows: ListType) {
-        self.rows = rows
-    }
+    public init() {}
     public var startIndex: ListType.Index {
         rows.startIndex
     }

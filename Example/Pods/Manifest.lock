@@ -1,5 +1,5 @@
 PODS:
-  - TPFoundation-Swift (1.0.0)
+  - TPFoundation-Swift (1.0.1)
 
 DEPENDENCIES:
   - TPFoundation-Swift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TPFoundation-Swift: b1be14c16eff9220f9066b410fdbdec5c1a4a6a1
+  TPFoundation-Swift: 97c42ba7b85657666c399773ce8d4b6b355f9854
 
 PODFILE CHECKSUM: 12f2ce2da2592e58a2a19be88c4a265acf7b7304
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

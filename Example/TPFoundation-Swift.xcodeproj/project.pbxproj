@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53F75F0D27B2586F001BDA43 /* LoginSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F75F0C27B2586F001BDA43 /* LoginSection.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,7 +31,8 @@
 /* Begin PBXFileReference section */
 		099FE8650F45AD6ABB76B917 /* Pods_TPFoundation_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPFoundation_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CF35E4C64F21F870BB3662 /* Pods-TPFoundation-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPFoundation-Swift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TPFoundation-Swift_Tests/Pods-TPFoundation-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		153C49681BA093389198D7C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		153C49681BA093389198D7C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		53F75F0C27B2586F001BDA43 /* LoginSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSection.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TPFoundation-Swift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TPFoundation-Swift_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +43,9 @@
 		607FACE51AFB9204008FA782 /* TPFoundation-Swift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TPFoundation-Swift_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		640FF8A506070AFB9DB5C3F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		640FF8A506070AFB9DB5C3F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6B21CF20119830AB81389601 /* Pods_TPFoundation_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPFoundation_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A437FAFC43F9C2CE202F9B /* TPFoundation-Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "TPFoundation-Swift.podspec"; path = "../TPFoundation-Swift.podspec"; sourceTree = "<group>"; };
+		76A437FAFC43F9C2CE202F9B /* TPFoundation-Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "TPFoundation-Swift.podspec"; path = "../TPFoundation-Swift.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D087E41E1A78008ED038E0E4 /* Pods-TPFoundation-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPFoundation-Swift_Example.debug.xcconfig"; path = "Target Support Files/Pods-TPFoundation-Swift_Example/Pods-TPFoundation-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D37D5BFECCF26DCE52B9FB87 /* Pods-TPFoundation-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPFoundation-Swift_Tests.release.xcconfig"; path = "Target Support Files/Pods-TPFoundation-Swift_Tests/Pods-TPFoundation-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E5AAC6561A20B9F77BA7ADC8 /* Pods-TPFoundation-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPFoundation-Swift_Example.release.xcconfig"; path = "Target Support Files/Pods-TPFoundation-Swift_Example/Pods-TPFoundation-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		53F75F0B27B25862001BDA43 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				53F75F0C27B2586F001BDA43 /* LoginSection.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 		607FACD21AFB9204008FA782 /* Example for TPFoundation-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				53F75F0B27B25862001BDA43 /* Feature */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -156,7 +167,6 @@
 				14CF35E4C64F21F870BB3662 /* Pods-TPFoundation-Swift_Tests.debug.xcconfig */,
 				D37D5BFECCF26DCE52B9FB87 /* Pods-TPFoundation-Swift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F75F0D27B2586F001BDA43 /* LoginSection.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

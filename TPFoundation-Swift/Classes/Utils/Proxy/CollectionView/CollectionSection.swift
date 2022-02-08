@@ -11,9 +11,7 @@ open class CollectionSection: Collection {
     public typealias ListType = [CollectionItem]
     public var items: ListType = []
     
-    public init(_ items: ListType) {
-        self.items = items
-    }
+    public init() {}
     public var startIndex: ListType.Index {
         items.startIndex
     }
