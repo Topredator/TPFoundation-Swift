@@ -21,6 +21,12 @@ open class CollectionSection: Collection {
     public func index(after i: ListType.Index) -> ListType.Index {
         items.index(after: i)
     }
+    public func addItem(_ item: CollectionItem) {
+        items.append(item)
+    }
+    public func addItems(_ list: [CollectionItem]) {
+        items.append(contentsOf: list)
+    }
     public subscript(position: ListType.Index) -> ListType.Element {
         get { items[position] }
         set { items[position] = newValue }

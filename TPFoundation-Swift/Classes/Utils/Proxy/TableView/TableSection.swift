@@ -24,6 +24,12 @@ open class TableSection: Collection, TableSectionWrapper {
     public var endIndex: ListType.Index {
         rows.endIndex
     }
+    public func addRows(_ list: [TableRowWrapper]) {
+        rows.append(contentsOf: list)
+    }
+    public func addRow(_ row: TableRowWrapper) {
+        rows.append(row)
+    }
     public func index(after i: ListType.Index) -> ListType.Index {
         rows.index(after: i)
     }
